@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ProjectApp.py
+web: sh setup.sh && streamlit run lung_cancer_application.py
