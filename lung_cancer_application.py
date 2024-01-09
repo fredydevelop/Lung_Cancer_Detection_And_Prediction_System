@@ -198,7 +198,7 @@ def main():
 
 def multi(input_data):
     loaded_model=pk.load(open("The_Latest_Lung Cancer_Model.sav", "rb"))
-    dfinput = pd.read_csv(input_data,header=None)
+    dfinput = pd.read_csv(input_data)
     #dfinput=dfinput.iloc[1:].reset_index(drop=True)
 
     st.header('A view of the uploaded dataset')
