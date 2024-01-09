@@ -54,7 +54,7 @@ def LungDetector(givendata):
     std_scaler_loaded=pk.load(open("my_saved_std_scaler.pkl", "rb"))
     std_X_resample=std_scaler_loaded.transform(input_data_reshaped)
     prediction = loaded_model.predict(std_X_resample)
-    if prediction==1:
+    if prediction==1 or prediction=="1":
       return "Lung Cancer is present"
     else:
       return "No Lung Cancer"
