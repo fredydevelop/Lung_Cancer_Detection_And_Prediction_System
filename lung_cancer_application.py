@@ -61,6 +61,9 @@ def LungDetector(givendata):
     
  
 #main function handling the input
+
+
+
 def main():
     st.header("Lung Cancer Detection System")
     
@@ -192,7 +195,7 @@ def main():
     
     # creating a button for Prediction
     if age!="" and option1!=""  and option2!=""  and option3!=""  and option4!="" and option5!="" and option6!="" and option7 !=""and  option8 !="" and option9!="" and option10 !="" and option11 !="" and option12 !="" and  option13 !="" and option14 !="" and st.button('Predict'):
-        detectionResult = LungDetector([age,Gender,SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC_DISEASE, FATIGUE , ALLERGY , WHEEZING, ALCOHOL_CONSUMING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN])
+        detectionResult = LungDetector([GENDER,age,SMOKING,YELLOW_FINGERS,ANXIETY,PEER_PRESSURE,CHRONIC_DISEASE,FATIGUE,ALLERGY,WHEEZING,ALCOHOL_CONSUMING,COUGHING,SHORTNESS_OF_BREATH,SWALLOWING_DIFFICULTY,CHEST PAIN])
         st.success(detectionResult)
 
 
