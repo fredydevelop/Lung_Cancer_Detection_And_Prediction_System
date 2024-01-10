@@ -85,20 +85,20 @@ def main():
         SMOKING=0
 
     option3 = st.selectbox('YELLOW_FINGERS',("",'Yes' ,'No'),key="YELLOW_FINGERS")
-    if (option3=='YES'):
+    if (option3=='Yes'):
         YELLOW_FINGERS=1
     else:
         YELLOW_FINGERS=0
 
     option4 = st.selectbox('ANXIETY',("",'Yes' ,'No'),key="ANXIETY")
-    if (option4=='YES'):
+    if (option4=='Yes'):
         ANXIETY=1
     else:
         ANXIETY=0
 
 
     option5 = st.selectbox('PEER_PRESSURE',("",'Yes' ,'No'),key="PEER_PRESSURE")
-    if (option5=='YES'):
+    if (option5=='Yes'):
         PEER_PRESSURE=1
     else:
         PEER_PRESSURE=0
@@ -108,7 +108,7 @@ def main():
     
 #
     option14 = st.selectbox('CHRONIC DISEASE',("",'Yes' ,'No'),key="CHRONIC_DISEASE")
-    if (option14=='YES'):
+    if (option14=='Yes'):
         CHRONIC_DISEASE=1
     else:
         CHRONIC_DISEASE=0
@@ -117,21 +117,21 @@ def main():
     
 
     option6 = st.selectbox('FATIGUE',("",'Yes' ,'No'),key="FATIGUE")
-    if (option6=='YES'):
+    if (option6=='Yes'):
         FATIGUE=1
     else:
         FATIGUE=0
 
 
     option7 = st.selectbox('ALLERGY',("",'Yes' ,'No'),key="ALLERGY")
-    if (option7=='YES'):
+    if (option7=='Yes'):
         ALLERGY=1
     else:
         ALLERGY=0
 
 
     option8 = st.selectbox('WHEEZING',("",'Yes' ,'No'),key="WHEEZING")
-    if (option8=='YES'):
+    if (option8=='Yes'):
         WHEEZING=1
     else:
         WHEEZING=0
@@ -139,7 +139,7 @@ def main():
     
 
     option9 = st.selectbox('ALCOHOL_CONSUMING',("",'Yes' ,'No'),key="ALCOHOL_CONSUMING")
-    if (option9=='YES'):
+    if (option9=='Yes'):
         ALCOHOL_CONSUMING=1
     else:
         ALCOHOL_CONSUMING=0
@@ -148,7 +148,7 @@ def main():
 
 
     option10 = st.selectbox('COUGHING',("",'Yes' ,'No'),key="COUGHING")
-    if (option10=='YES'):
+    if (option10=='Yes'):
         COUGHING=1
     else:
         COUGHING=0
@@ -157,7 +157,7 @@ def main():
     
 
     option11 = st.selectbox('SHORTNESS OF BREATH',("",'Yes' ,'No'),key="SHORTNESS_OF_BREATH")
-    if (option11=='YES'):
+    if (option11=='Yes'):
         SHORTNESS_OF_BREATH=1
     else:
         SHORTNESS_OF_BREATH=0
@@ -167,7 +167,7 @@ def main():
 
 
     option12 = st.selectbox('SWALLOWING DIFFICULTY',("",'Yes' ,'No'),key="SWALLOWING_DIFFICULTY")
-    if (option12=='YES'):
+    if (option12=='Yes'):
         SWALLOWING_DIFFICULTY=1
     else:
         SWALLOWING_DIFFICULTY=0
@@ -176,7 +176,7 @@ def main():
     
 
     option13 = st.selectbox('CHEST_PAIN',("",'Yes' ,'No'),key="CHEST_PAIN")
-    if (option13=='YES'):
+    if (option13=='Yes'):
         CHEST_PAIN=1
     else:
         CHEST_PAIN=0
