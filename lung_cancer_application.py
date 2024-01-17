@@ -65,7 +65,7 @@ def LungDetector(givendata):
 
 
 def main():
-    st.header("Lung Cancer Detection System")
+    st.header("ALA LUNG CHECK")
     
     #getting user input
     
