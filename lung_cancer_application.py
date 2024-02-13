@@ -222,10 +222,10 @@ def multi(input_data):
         interchange=[]
         for i in prediction:
             if i==1:
-                newi="Lung Cancer Detected"
+                newi="signs of lung cancer detected"
                 interchange.append(newi)
             elif i==0:
-                newi="No Lung Cancer"
+                newi="There is No sign of Lung Cancer Detected"
                 interchange.append(newi)
             
         st.subheader('Here is your prediction')
