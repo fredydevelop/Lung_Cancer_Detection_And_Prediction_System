@@ -56,9 +56,9 @@ def LungDetector(givendata):
     std_X_resample=std_scaler_loaded.transform(input_data_reshaped)
     prediction = loaded_model.predict(std_X_resample)
     if prediction==1 or prediction=="1":
-      return "signs of lung cancer detected \n kindly go for medical support"
+      return "signs of lung cancer detected, kindly visit the hospital for medical support"
     else:
-      return "No sign of Lung Cancer Detected \n Maintain a healthy lifestyle"
+      return "No sign of Lung Cancer Detected"
     
  
 #main function handling the input
