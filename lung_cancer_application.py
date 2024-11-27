@@ -33,7 +33,7 @@ st.set_page_config(page_title='Lung Cancer detection system',layout='centered')
 
 #selection=option_menu(menu_title="Main Menu",options=["Single Prediction","Multi Prediction"],icons=["cast","book","cast"],menu_icon="house",default_index=0)
 with st.sidebar:
-    st.image("Lung 2.jpg",width=120)
+    st.image("Lung 2.jpg",width=250)
     st.title("Home Page")
     selection=st.radio("select your option",options=["Predict for a Single-Patient", "Predict for Multi-Patient"])
 
@@ -240,7 +240,7 @@ if selection =="Predict for a Single-Patient":
     main()
 
 if selection == "Predict for Multi-Patient":
-    st.set_option('deprecation.showPyplotGlobalUse', False)
+    #st.set_option('deprecation.showPyplotGlobalUse', False)
     #---------------------------------#
     # Prediction
     #--------------------------------
