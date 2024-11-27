@@ -33,7 +33,7 @@ st.set_page_config(page_title='Lung Cancer detection system',layout='centered')
 
 #selection=option_menu(menu_title="Main Menu",options=["Single Prediction","Multi Prediction"],icons=["cast","book","cast"],menu_icon="house",default_index=0)
 with st.sidebar:
-    st.image("Lung 2.jpg")
+    st.image("Lung 2.jpg",width=400px)
     st.title("Home Page")
     selection=st.radio("select your option",options=["Predict for a Single-Patient", "Predict for Multi-Patient"])
 
